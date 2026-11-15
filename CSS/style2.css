@@ -1,0 +1,204 @@
+.content{
+    margin: 25px;
+    overflow: scroll;
+    background-image: url(IMG/James\ y\ charlotte.png), url(IMG/Fondo.png);
+    background-repeat: repeat;
+    background-position:center;
+    background-size: contain;
+    height: 10px;
+    background-attachment: fixed;
+}
+
+#NavBarEncabezado{
+    position: sticky;
+    top: 0;
+}
+
+.Encabezado{
+    display: flex;
+    position: sticky;
+    margin: 0px;
+    background-color: #050a22;
+    top: 0;
+}
+.ContentEncabezado{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    gap: 5px;
+    position: sticky;
+    top: 0;
+}
+.CasaEncabezado{
+padding: 10px;
+background-color: #050a22;
+color: white;
+font-family:Baskerville;
+border-style: solid;
+border-color: #050a22;
+cursor: pointer;
+top: 0px;
+position: sticky;
+}
+
+.introduccion{
+text-align: center;
+justify-content: center;
+color: white;
+font-size: 1.5rem;
+}
+
+.ScaleBox{
+    display: flex;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.ScaleBox:hover{
+transform: scale(1.1);
+}
+
+.acomodar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+    font-family: Baskerville;
+    color: white;
+    
+}
+
+.Izquierdasuperior{
+    text-align: left;
+    margin: 10px;
+    
+}
+
+.Cap1{
+    text-align: center;
+    margin: 10px;
+}
+
+.Content1{
+    height: 900px;
+    width: 700px;
+    text-align: center;
+background-image: linear-gradient(to bottom, #1c7dbd,#FF75CF);
+}
+
+.Content2{
+    height: 900px;
+    width: 700px;
+    text-align: center;
+background-image: linear-gradient(to bottom, #1c7dbd,#FF75CF);
+}
+
+.Content3{
+    height: 900px;
+    width: 700px;
+    text-align: center;
+background-image: linear-gradient(to bottom, #1c7dbd,#FF75CF);
+}
+
+.Content4{
+    height: 900px;
+    width: 700px;
+    text-align: center;
+background-image: linear-gradient(to bottom, #1c7dbd,#FF75CF);
+}
+
+.Content5{
+    height: 900px;
+    width: 700px;
+    text-align: center;
+background-image: linear-gradient(to bottom, #1c7dbd,#FF75CF);
+}
+
+.Content6{
+    height: 900px;
+    width: 700px;
+    text-align: center;
+background-image: linear-gradient(to bottom, #1c7dbd,#FF75CF);
+}
+
+.Content7{
+    height: 900px;
+    width: 700px;
+    text-align: center;
+background-image: linear-gradient(to bottom, #1c7dbd,#FF75CF);
+}
+
+.Content8{
+    height: 900px;
+    width: 700px;
+    text-align: center;
+background-image: linear-gradient(to bottom, #1c7dbd,#FF75CF);
+}
+
+.Content9{
+    height: 900px;
+    width: 700px;
+    text-align: center;
+background-image: linear-gradient(to bottom, #1c7dbd,#FF75CF);
+}
+
+.Content10{
+    height: 900px;
+    width: 700px;
+    text-align: center;
+background-image: linear-gradient(to bottom, #1c7dbd,#FF75CF);
+}
+
+
+#TextoContentHistoria{
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    font-size: 20.5px;
+}
+
+#Pg1{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.menu-nativo {
+    position: relative;
+}
+
+/* Quita el triángulo por defecto de <summary> */
+.menu-nativo summary {
+    list-style: none;
+    cursor: pointer;
+}
+.menu-nativo summary::-webkit-details-marker {
+    display: none;
+}
+
+.menu-desplegable {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #050a22;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-width: 160px;
+    z-index: 1000;
+}
+
+.menu-desplegable li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}

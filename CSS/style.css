@@ -1,0 +1,101 @@
+.Encabezado{
+    display: flex;
+    position: sticky;
+    background-color: #050a22;
+}
+.ContentEncabezado{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    gap: 5px;
+}
+.CasaEncabezado{
+padding: 10px;
+background-color: #050a22;
+color: white;
+font-family:Baskerville;
+border-style: solid;
+border-color: #050a22;
+cursor: pointer;
+}
+
+.introduccion{
+text-align: center;
+align-items: center;
+color: white;
+font-size: 1.5rem;
+margin-top: 190px;
+}
+
+.content{
+    margin: 25px;
+    overflow: scroll;
+    background-image: url(IMG/James\ y\ charlotte.png), url(IMG/Fondo.png);
+    background-repeat: repeat;
+    background-position:center;
+    background-size: contain;
+    height: 10px;
+    background-attachment: fixed;
+}
+
+.ScaleBox{
+    display: flex;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.ScaleBox:hover{
+transform: scale(1.1);
+}
+
+.enlacehistoria{
+    color: white;
+    text-decoration: none;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    justify-content: center;
+    align-items: center;
+    font-family: Baskerville;
+    color: white;
+}
+
+/* Contenido de la ventana */
+.popup-contenido {
+    background-image: linear-gradient(to bottom, #1c7dbd,#FF75CF);
+    padding: 30px;
+    width: 350px;
+    max-width: 85%;
+    border-radius: 12px;
+    position: relative;
+    animation: aparecer 0.3s ease;
+}
+
+/* Botón para cerrar */
+.cerrar {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
+
+#aceptar{
+    border: solid;
+    border-color: black ;
+    background-color: #050a22;
+    color: white;
+    cursor: pointer;
+}
